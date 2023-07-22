@@ -1,0 +1,61 @@
+.result-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.result-main div{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-btn-no{
+
+}
+
+.result-btn-yes{
+  font-size: 20px;
+  padding: 20px 50px;
+  background-color: #0079FF;;
+  border: 3px solid #0079FF;;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.result-btn-yes:hover{
+  background-color: white;
+  color: #0079FF;
+}
+
+.result-btn-no{
+  font-size: 20px;
+  padding: 20px 50px;
+  background-color: #F24C3D;
+  border: 3px solid #F24C3D;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.result-btn-no:hover{
+  background-color: white;
+  color: #F24C3D;
+}
+
+.result-btns{
+  margin-top: 20px;
+}
+
+.result-btns button{
+  margin-top: 10px;
+}
