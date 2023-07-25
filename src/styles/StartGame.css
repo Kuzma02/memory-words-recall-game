@@ -1,7 +1,9 @@
 .startGame-main{
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  row-gap: 20px;
   height: 100vh;
 }
 
@@ -21,4 +23,10 @@
 .startGame-main button:hover{
   background-color: white;
   color: #0079FF;
+}
+
+.startgame-input{
+  padding: 15px 10px;
+  font-size: 20px;
+  
 }

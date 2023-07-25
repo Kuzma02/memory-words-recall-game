@@ -17,7 +17,7 @@ export const RememberLevel = () => {
   const setCurrentRandomWords = context.setCurrentRandomWords;
   const currentLevel = context.currentLevel;
 
-  const [ initialTime, setInitalTime ] = useState(30 + (currentLevel * 10));
+  const [ initialTime, setInitalTime ] = useState(30 + (currentLevel * 20));
 
 
 
@@ -41,6 +41,7 @@ export const RememberLevel = () => {
 
   return (
     <div className='remember-main'>
+      <h1>Current Level: {currentLevel}</h1>
       <CountdownTimer goToRecallLevel={goToRecallLevel} initialTime={initialTime} />
       <h1 className='remember-main-title'>Remember these words: </h1>
       <ol className='randomList'>

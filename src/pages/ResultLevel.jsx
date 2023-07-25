@@ -20,7 +20,7 @@ export const ResultLevel = () => {
     setCurrentLevel(1);
     setCurrentRandomWords([]);
     setRecallWords([]);
-    navigate("/remember-level");
+    navigate("/");
   }
 
   return (
