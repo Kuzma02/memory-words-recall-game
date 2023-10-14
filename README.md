@@ -1,3 +1,11 @@
+# Memory words recall game in React.js
+
+Simple game for practising remembering words. Random words are in the Serbian language, but you can replace them with words of your choice.
+
+You can download it locally or see it live via the following link: [kuzma-memory-words-recall.netlify.app](https://kuzma-memory-words-recall.netlify.app)
+
+![words recall](https://github.com/Kuzma02/memory-words-recall-game/assets/138793624/e524cbf4-ecb7-42d9-85a0-6cb442e2804d)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
